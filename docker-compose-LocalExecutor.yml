@@ -13,7 +13,7 @@ services:
   mysql:
       image: mysql:latest
       environment:
-          - MYSQL_ROOT_PASSWORD=root
+          - MYSQL_ROOT_PASSWORD=lubuusi
       volumes:
           - ./store_files:/store_files_mysql/
           - ./mysql.cnf:/etc/mysql/mysql.cnf # Overriding the secure file to load data from a local environment.

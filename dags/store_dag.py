@@ -11,7 +11,7 @@ yesterday_date = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
 
 default_args = {
     'owner': 'Airflow',
-    'start_date': datetime(2025, 4, 26),
+    'start_date': datetime(2025, 4, 27),
     'retries': 1,
     'retry_delay': timedelta(seconds=5)
 }
